@@ -31,23 +31,47 @@
   background-color: white;
   border-radius: 5px;
   display: grid;
-  grid-template-rows: 2fr 3fr;
+  grid-template-rows: 3fr 2fr;
+  row-gap: 5%;
 }
-.box3{
-  background-color: white;
-  grid-column: 2;
-  border-radius: 5px;
+.sellerContainer{
+  display: flex;
+  flex-direction: column;
 }
 .sellers{
-
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(4, 1fr);
   column-gap: 2%;
   row-gap: 10%;
+  flex: 1;
 }
 .seller{
   background-color: gold;
 }
 .articles{
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  column-gap: 2%;
+  row-gap: 10%;
+}
+.article{
   background-color: crimson;
+}
+.box3{
+  background-color: white;
+  grid-column: 2;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+.top3{
+  background-color: darkgreen;
+}
+.bottom3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2%;
+}
+.element{
+  background-color: blueviolet;
 }

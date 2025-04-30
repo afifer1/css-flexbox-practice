@@ -26,24 +26,35 @@ function App() {
           <h3>Settings</h3>
         </div>
         <div className="box2">
-          <div className="sellers">
-            <div className="seller">1</div>
-            <div className="seller">2</div>
-            <div className="seller">3</div>
-            <div className="seller">4</div>
-            <div className="seller">5</div>
-            <div className="seller">6</div>
-            <div className="seller">7</div>
-            <div className="seller">8</div>
+          <div className="sellerContainer">
+            <h3>Top Sellers</h3>
+            <div className="sellers">
+              <div className="seller">1</div>
+              <div className="seller">2</div>
+              <div className="seller">3</div>
+              <div className="seller">4</div>
+              <div className="seller">5</div>
+              <div className="seller">6</div>
+              <div className="seller">7</div>
+              <div className="seller">8</div>
+            </div>
           </div>
           <div className="articles">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
+            <div className="article">1</div>
+            <div className="article">2</div>
+            <div className="article">3</div>
+            <div className="article">4</div>
           </div>
         </div>
-        <div className="box3"> Box 3 </div>
+        <div className="box3">
+          <div className="top3">Latest</div>
+          <div className="bottom3">
+            <div className="element">1</div>
+            <div className="element">2</div>
+            <div className="element">3</div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
