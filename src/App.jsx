@@ -7,28 +7,45 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="main">
+      <div className="header">
+        <div>
+          <h1>Aria Store </h1>
+        </div>
+        <div className="headerPages">
+          <h3>Home</h3>
+          <h3>About</h3>
+          <h3>Works</h3>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <div className="threeMainBoxes">
+        <div className="box1">
+          <h3>Home</h3>
+          <h3>Cart</h3>
+          <h3>Favorites</h3>
+          <h3>Settings</h3>
+        </div>
+        <div className="box2">
+          <div className="sellers">
+            <div className="seller">1</div>
+            <div className="seller">2</div>
+            <div className="seller">3</div>
+            <div className="seller">4</div>
+            <div className="seller">5</div>
+            <div className="seller">6</div>
+            <div className="seller">7</div>
+            <div className="seller">8</div>
+          </div>
+          <div className="articles">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+          </div>
+        </div>
+        <div className="box3"> Box 3 </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </div>
   )
 }
 
